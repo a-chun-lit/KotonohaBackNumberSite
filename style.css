@@ -33,7 +33,7 @@ h4{
 .backnumber img{
     height: 300px;
     width: 220px;
-    margin-left: 50px;
+    margin-left: 27px;
     flex: none;
     margin-bottom: 40px;
 }
@@ -41,4 +41,13 @@ h4{
 .backnumber {
     display: flex;
     flex-wrap: wrap;
+}
+
+.scale img{
+    transition-duration: 0.5s;
+}
+
+.scale:hover img{
+    transform: scale(1.07);
+    transition-duration: 0.5s;
 }
